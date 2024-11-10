@@ -21,9 +21,9 @@ export async function generateMetadata({ params }: { params: Promise<PageProps["
     }
 }
 
-export function generateStaticParams(): { topic: string }[] {
-    return ["health", "fitness", "coding"].map((topic: string): { topic: string } => ({ topic }));
-}
+// export function generateStaticParams(): { topic: string }[] {
+//     return ["health", "fitness", "coding"].map((topic: string): { topic: string } => ({ topic }));
+// }
 
 // export const revalidate = 0;
 
